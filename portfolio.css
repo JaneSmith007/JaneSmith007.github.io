@@ -19,6 +19,21 @@ h1:hover {
     transform: scale(1.1); /* When the h1 elements are hovered over they increase in size by 1.1 */
     transition: transform 1s; /* This causes the transformation to last 1 second */
 }
+/* Heading 2 elements */
+h2 {
+    
+    font-family: "Trebuchet MS", Optima; /* Sets the font family of all h1 headings */
+    text-align: center; /* Centering all h1 elements */
+    margin-top: 3%; /* Adds a small margin above h1 elements */
+    color: #1a1a1a; 
+}
+
+/* Heading 1 element hover effect */
+h2:hover {
+    filter: grayscale(5%); /* Adds a slightly gray filter to the h1 headings when hovered over */
+    transform: scale(1.1); /* When the h1 elements are hovered over they increase in size by 1.1 */
+    transition: transform 1s; /* This causes the transformation to last 1 second */
+}
 
 /* Styling for portfolio title text */
 .white-text {
